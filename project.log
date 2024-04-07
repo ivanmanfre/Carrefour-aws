@@ -1,0 +1,1561 @@
+/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ivanmanfredi/Desktop/Carrefour/project.py': [Errno 1] Operation not permitted
+/Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/ivanmanfredi/Desktop/Carrefour/project.py': [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/Users/ivanmanfredi/Desktop/Carrefour/project.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/ivanmanfredi/Desktop/Carrefour/project.py", line 1, in <module>
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "/Users/ivanmanfredi/Desktop/Carrefour/project.py", line 348, in <module>
+    product_urls = read_product_urls(product_urls_file)
+  File "/Users/ivanmanfredi/Desktop/Carrefour/project.py", line 26, in read_product_urls
+    with open(file_path, 'r') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'product_urls.txt'
+Error processing URL https://www.carrefour.com.ar/te-en-saquitos-green-hills-50-u/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001010c67dc chromedriver + 4040668
+1   chromedriver                        0x00000001010be9e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100d31870 chromedriver + 284784
+3   chromedriver                        0x0000000100d75080 chromedriver + 561280
+4   chromedriver                        0x0000000100daf048 chromedriver + 798792
+5   chromedriver                        0x0000000100d6974c chromedriver + 513868
+6   chromedriver                        0x0000000100d6a044 chromedriver + 516164
+7   chromedriver                        0x000000010108ba04 chromedriver + 3799556
+8   chromedriver                        0x000000010108fee4 chromedriver + 3817188
+9   chromedriver                        0x0000000101074260 chromedriver + 3703392
+10  chromedriver                        0x0000000101090a2c chromedriver + 3820076
+11  chromedriver                        0x000000010106701c chromedriver + 3649564
+12  chromedriver                        0x00000001010ade3c chromedriver + 3939900
+13  chromedriver                        0x00000001010adfb4 chromedriver + 3940276
+14  chromedriver                        0x00000001010be660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180c81034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180c7be3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/vino-tinto-malbec-elementos-750-cc/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001010c67dc chromedriver + 4040668
+1   chromedriver                        0x00000001010be9e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100d31870 chromedriver + 284784
+3   chromedriver                        0x0000000100d75080 chromedriver + 561280
+4   chromedriver                        0x0000000100daf048 chromedriver + 798792
+5   chromedriver                        0x0000000100d6974c chromedriver + 513868
+6   chromedriver                        0x0000000100d6a044 chromedriver + 516164
+7   chromedriver                        0x000000010108ba04 chromedriver + 3799556
+8   chromedriver                        0x000000010108fee4 chromedriver + 3817188
+9   chromedriver                        0x0000000101074260 chromedriver + 3703392
+10  chromedriver                        0x0000000101090a2c chromedriver + 3820076
+11  chromedriver                        0x000000010106701c chromedriver + 3649564
+12  chromedriver                        0x00000001010ade3c chromedriver + 3939900
+13  chromedriver                        0x00000001010adfb4 chromedriver + 3940276
+14  chromedriver                        0x00000001010be660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180c81034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180c7be3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/soda-saldan-15-l/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001010c67dc chromedriver + 4040668
+1   chromedriver                        0x00000001010be9e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100d31870 chromedriver + 284784
+3   chromedriver                        0x0000000100d75080 chromedriver + 561280
+4   chromedriver                        0x0000000100daf048 chromedriver + 798792
+5   chromedriver                        0x0000000100d6974c chromedriver + 513868
+6   chromedriver                        0x0000000100d6a044 chromedriver + 516164
+7   chromedriver                        0x000000010108ba04 chromedriver + 3799556
+8   chromedriver                        0x000000010108fee4 chromedriver + 3817188
+9   chromedriver                        0x0000000101074260 chromedriver + 3703392
+10  chromedriver                        0x0000000101090a2c chromedriver + 3820076
+11  chromedriver                        0x000000010106701c chromedriver + 3649564
+12  chromedriver                        0x00000001010ade3c chromedriver + 3939900
+13  chromedriver                        0x00000001010adfb4 chromedriver + 3940276
+14  chromedriver                        0x00000001010be660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180c81034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180c7be3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/mayonesa-menoyo-doy-pack-250-cc/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001010c67dc chromedriver + 4040668
+1   chromedriver                        0x00000001010be9e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100d31870 chromedriver + 284784
+3   chromedriver                        0x0000000100d75080 chromedriver + 561280
+4   chromedriver                        0x0000000100daf048 chromedriver + 798792
+5   chromedriver                        0x0000000100d6974c chromedriver + 513868
+6   chromedriver                        0x0000000100d6a044 chromedriver + 516164
+7   chromedriver                        0x000000010108ba04 chromedriver + 3799556
+8   chromedriver                        0x000000010108fee4 chromedriver + 3817188
+9   chromedriver                        0x0000000101074260 chromedriver + 3703392
+10  chromedriver                        0x0000000101090a2c chromedriver + 3820076
+11  chromedriver                        0x000000010106701c chromedriver + 3649564
+12  chromedriver                        0x00000001010ade3c chromedriver + 3939900
+13  chromedriver                        0x00000001010adfb4 chromedriver + 3940276
+14  chromedriver                        0x00000001010be660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180c81034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180c7be3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/sal-fina-celusal-paquete-500-g/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001010c67dc chromedriver + 4040668
+1   chromedriver                        0x00000001010be9e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100d31870 chromedriver + 284784
+3   chromedriver                        0x0000000100d75080 chromedriver + 561280
+4   chromedriver                        0x0000000100daf048 chromedriver + 798792
+5   chromedriver                        0x0000000100d6974c chromedriver + 513868
+6   chromedriver                        0x0000000100d6a044 chromedriver + 516164
+7   chromedriver                        0x000000010108ba04 chromedriver + 3799556
+8   chromedriver                        0x000000010108fee4 chromedriver + 3817188
+9   chromedriver                        0x0000000101074260 chromedriver + 3703392
+10  chromedriver                        0x0000000101090a2c chromedriver + 3820076
+11  chromedriver                        0x000000010106701c chromedriver + 3649564
+12  chromedriver                        0x00000001010ade3c chromedriver + 3939900
+13  chromedriver                        0x00000001010adfb4 chromedriver + 3940276
+14  chromedriver                        0x00000001010be660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180c81034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180c7be3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/harina-de-trigo-pureza-0000-1-kg-551284/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001010c67dc chromedriver + 4040668
+1   chromedriver                        0x00000001010be9e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100d31870 chromedriver + 284784
+3   chromedriver                        0x0000000100d75080 chromedriver + 561280
+4   chromedriver                        0x0000000100daf048 chromedriver + 798792
+5   chromedriver                        0x0000000100d6974c chromedriver + 513868
+6   chromedriver                        0x0000000100d6a044 chromedriver + 516164
+7   chromedriver                        0x000000010108ba04 chromedriver + 3799556
+8   chromedriver                        0x000000010108fee4 chromedriver + 3817188
+9   chromedriver                        0x0000000101074260 chromedriver + 3703392
+10  chromedriver                        0x0000000101090a2c chromedriver + 3820076
+11  chromedriver                        0x000000010106701c chromedriver + 3649564
+12  chromedriver                        0x00000001010ade3c chromedriver + 3939900
+13  chromedriver                        0x00000001010adfb4 chromedriver + 3940276
+14  chromedriver                        0x00000001010be660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180c81034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180c7be3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/harina-de-trigo-000-caserita-x-1-kg-7757/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(@class, "productNameContainer")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001010c67dc chromedriver + 4040668
+1   chromedriver                        0x00000001010be9e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100d31870 chromedriver + 284784
+3   chromedriver                        0x0000000100d75080 chromedriver + 561280
+4   chromedriver                        0x0000000100daf048 chromedriver + 798792
+5   chromedriver                        0x0000000100d6974c chromedriver + 513868
+6   chromedriver                        0x0000000100d6a044 chromedriver + 516164
+7   chromedriver                        0x000000010108ba04 chromedriver + 3799556
+8   chromedriver                        0x000000010108fee4 chromedriver + 3817188
+9   chromedriver                        0x0000000101074260 chromedriver + 3703392
+10  chromedriver                        0x0000000101090a2c chromedriver + 3820076
+11  chromedriver                        0x000000010106701c chromedriver + 3649564
+12  chromedriver                        0x00000001010ade3c chromedriver + 3939900
+13  chromedriver                        0x00000001010adfb4 chromedriver + 3940276
+14  chromedriver                        0x00000001010be660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180c81034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180c7be3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/salchichon-primavera-lario-x-kg/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001010c67dc chromedriver + 4040668
+1   chromedriver                        0x00000001010be9e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100d31870 chromedriver + 284784
+3   chromedriver                        0x0000000100d75080 chromedriver + 561280
+4   chromedriver                        0x0000000100daf048 chromedriver + 798792
+5   chromedriver                        0x0000000100d6974c chromedriver + 513868
+6   chromedriver                        0x0000000100d6a044 chromedriver + 516164
+7   chromedriver                        0x000000010108ba04 chromedriver + 3799556
+8   chromedriver                        0x000000010108fee4 chromedriver + 3817188
+9   chromedriver                        0x0000000101074260 chromedriver + 3703392
+10  chromedriver                        0x0000000101090a2c chromedriver + 3820076
+11  chromedriver                        0x000000010106701c chromedriver + 3649564
+12  chromedriver                        0x00000001010ade3c chromedriver + 3939900
+13  chromedriver                        0x00000001010adfb4 chromedriver + 3940276
+14  chromedriver                        0x00000001010be660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180c81034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180c7be3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/aceite-de-girasol-pureza-1500-cc/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001010c67dc chromedriver + 4040668
+1   chromedriver                        0x00000001010be9e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100d31870 chromedriver + 284784
+3   chromedriver                        0x0000000100d75080 chromedriver + 561280
+4   chromedriver                        0x0000000100daf048 chromedriver + 798792
+5   chromedriver                        0x0000000100d6974c chromedriver + 513868
+6   chromedriver                        0x0000000100d6a044 chromedriver + 516164
+7   chromedriver                        0x000000010108ba04 chromedriver + 3799556
+8   chromedriver                        0x000000010108fee4 chromedriver + 3817188
+9   chromedriver                        0x0000000101074260 chromedriver + 3703392
+10  chromedriver                        0x0000000101090a2c chromedriver + 3820076
+11  chromedriver                        0x000000010106701c chromedriver + 3649564
+12  chromedriver                        0x00000001010ade3c chromedriver + 3939900
+13  chromedriver                        0x00000001010adfb4 chromedriver + 3940276
+14  chromedriver                        0x00000001010be660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180c81034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180c7be3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/margarina-en-pan-delicia-vitamina-a-y-d-200-g-726169/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001010c67dc chromedriver + 4040668
+1   chromedriver                        0x00000001010be9e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100d31870 chromedriver + 284784
+3   chromedriver                        0x0000000100d75080 chromedriver + 561280
+4   chromedriver                        0x0000000100daf048 chromedriver + 798792
+5   chromedriver                        0x0000000100d6974c chromedriver + 513868
+6   chromedriver                        0x0000000100d6a044 chromedriver + 516164
+7   chromedriver                        0x000000010108ba04 chromedriver + 3799556
+8   chromedriver                        0x000000010108fee4 chromedriver + 3817188
+9   chromedriver                        0x0000000101074260 chromedriver + 3703392
+10  chromedriver                        0x0000000101090a2c chromedriver + 3820076
+11  chromedriver                        0x000000010106701c chromedriver + 3649564
+12  chromedriver                        0x00000001010ade3c chromedriver + 3939900
+13  chromedriver                        0x00000001010adfb4 chromedriver + 3940276
+14  chromedriver                        0x00000001010be660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180c81034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180c7be3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/leche-ultra-entera-carrefour-classic-sachet-1-lt-720020/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001010c67dc chromedriver + 4040668
+1   chromedriver                        0x00000001010be9e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100d31870 chromedriver + 284784
+3   chromedriver                        0x0000000100d75080 chromedriver + 561280
+4   chromedriver                        0x0000000100daf048 chromedriver + 798792
+5   chromedriver                        0x0000000100d6974c chromedriver + 513868
+6   chromedriver                        0x0000000100d6a044 chromedriver + 516164
+7   chromedriver                        0x000000010108ba04 chromedriver + 3799556
+8   chromedriver                        0x000000010108fee4 chromedriver + 3817188
+9   chromedriver                        0x0000000101074260 chromedriver + 3703392
+10  chromedriver                        0x0000000101090a2c chromedriver + 3820076
+11  chromedriver                        0x000000010106701c chromedriver + 3649564
+12  chromedriver                        0x00000001010ade3c chromedriver + 3939900
+13  chromedriver                        0x00000001010adfb4 chromedriver + 3940276
+14  chromedriver                        0x00000001010be660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180c81034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180c7be3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/leche-en-polvo-la-serenisima-descremada-400-g-677889/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001010c67dc chromedriver + 4040668
+1   chromedriver                        0x00000001010be9e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100d31870 chromedriver + 284784
+3   chromedriver                        0x0000000100d75080 chromedriver + 561280
+4   chromedriver                        0x0000000100daf048 chromedriver + 798792
+5   chromedriver                        0x0000000100d6974c chromedriver + 513868
+6   chromedriver                        0x0000000100d6a044 chromedriver + 516164
+7   chromedriver                        0x000000010108ba04 chromedriver + 3799556
+8   chromedriver                        0x000000010108fee4 chromedriver + 3817188
+9   chromedriver                        0x0000000101074260 chromedriver + 3703392
+10  chromedriver                        0x0000000101090a2c chromedriver + 3820076
+11  chromedriver                        0x000000010106701c chromedriver + 3649564
+12  chromedriver                        0x00000001010ade3c chromedriver + 3939900
+13  chromedriver                        0x00000001010adfb4 chromedriver + 3940276
+14  chromedriver                        0x00000001010be660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180c81034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180c7be3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/lechuga-francesa-hidroponica-220-g/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x00000001010c67dc chromedriver + 4040668
+1   chromedriver                        0x00000001010be9e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100d31870 chromedriver + 284784
+3   chromedriver                        0x0000000100d75080 chromedriver + 561280
+4   chromedriver                        0x0000000100daf048 chromedriver + 798792
+5   chromedriver                        0x0000000100d6974c chromedriver + 513868
+6   chromedriver                        0x0000000100d6a044 chromedriver + 516164
+7   chromedriver                        0x000000010108ba04 chromedriver + 3799556
+8   chromedriver                        0x000000010108fee4 chromedriver + 3817188
+9   chromedriver                        0x0000000101074260 chromedriver + 3703392
+10  chromedriver                        0x0000000101090a2c chromedriver + 3820076
+11  chromedriver                        0x000000010106701c chromedriver + 3649564
+12  chromedriver                        0x00000001010ade3c chromedriver + 3939900
+13  chromedriver                        0x00000001010adfb4 chromedriver + 3940276
+14  chromedriver                        0x00000001010be660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180c81034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180c7be3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/te-en-saquitos-green-hills-50-u/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000102f1e7dc chromedriver + 4040668
+1   chromedriver                        0x0000000102f169e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102b89870 chromedriver + 284784
+3   chromedriver                        0x0000000102bcd080 chromedriver + 561280
+4   chromedriver                        0x0000000102c07048 chromedriver + 798792
+5   chromedriver                        0x0000000102bc174c chromedriver + 513868
+6   chromedriver                        0x0000000102bc2044 chromedriver + 516164
+7   chromedriver                        0x0000000102ee3a04 chromedriver + 3799556
+8   chromedriver                        0x0000000102ee7ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000102ecc260 chromedriver + 3703392
+10  chromedriver                        0x0000000102ee8a2c chromedriver + 3820076
+11  chromedriver                        0x0000000102ebf01c chromedriver + 3649564
+12  chromedriver                        0x0000000102f05e3c chromedriver + 3939900
+13  chromedriver                        0x0000000102f05fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000102f16660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/vino-tinto-malbec-elementos-750-cc/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000102f1e7dc chromedriver + 4040668
+1   chromedriver                        0x0000000102f169e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102b89870 chromedriver + 284784
+3   chromedriver                        0x0000000102bcd080 chromedriver + 561280
+4   chromedriver                        0x0000000102c07048 chromedriver + 798792
+5   chromedriver                        0x0000000102bc174c chromedriver + 513868
+6   chromedriver                        0x0000000102bc2044 chromedriver + 516164
+7   chromedriver                        0x0000000102ee3a04 chromedriver + 3799556
+8   chromedriver                        0x0000000102ee7ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000102ecc260 chromedriver + 3703392
+10  chromedriver                        0x0000000102ee8a2c chromedriver + 3820076
+11  chromedriver                        0x0000000102ebf01c chromedriver + 3649564
+12  chromedriver                        0x0000000102f05e3c chromedriver + 3939900
+13  chromedriver                        0x0000000102f05fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000102f16660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/soda-saldan-15-l/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000102f1e7dc chromedriver + 4040668
+1   chromedriver                        0x0000000102f169e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102b89870 chromedriver + 284784
+3   chromedriver                        0x0000000102bcd080 chromedriver + 561280
+4   chromedriver                        0x0000000102c07048 chromedriver + 798792
+5   chromedriver                        0x0000000102bc174c chromedriver + 513868
+6   chromedriver                        0x0000000102bc2044 chromedriver + 516164
+7   chromedriver                        0x0000000102ee3a04 chromedriver + 3799556
+8   chromedriver                        0x0000000102ee7ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000102ecc260 chromedriver + 3703392
+10  chromedriver                        0x0000000102ee8a2c chromedriver + 3820076
+11  chromedriver                        0x0000000102ebf01c chromedriver + 3649564
+12  chromedriver                        0x0000000102f05e3c chromedriver + 3939900
+13  chromedriver                        0x0000000102f05fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000102f16660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/mayonesa-menoyo-doy-pack-250-cc/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000102f1e7dc chromedriver + 4040668
+1   chromedriver                        0x0000000102f169e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102b89870 chromedriver + 284784
+3   chromedriver                        0x0000000102bcd080 chromedriver + 561280
+4   chromedriver                        0x0000000102c07048 chromedriver + 798792
+5   chromedriver                        0x0000000102bc174c chromedriver + 513868
+6   chromedriver                        0x0000000102bc2044 chromedriver + 516164
+7   chromedriver                        0x0000000102ee3a04 chromedriver + 3799556
+8   chromedriver                        0x0000000102ee7ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000102ecc260 chromedriver + 3703392
+10  chromedriver                        0x0000000102ee8a2c chromedriver + 3820076
+11  chromedriver                        0x0000000102ebf01c chromedriver + 3649564
+12  chromedriver                        0x0000000102f05e3c chromedriver + 3939900
+13  chromedriver                        0x0000000102f05fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000102f16660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/pan-blanco-lactal-bolsa-315-g-716484/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000102f1e7dc chromedriver + 4040668
+1   chromedriver                        0x0000000102f169e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102b89870 chromedriver + 284784
+3   chromedriver                        0x0000000102bcd080 chromedriver + 561280
+4   chromedriver                        0x0000000102c07048 chromedriver + 798792
+5   chromedriver                        0x0000000102bc174c chromedriver + 513868
+6   chromedriver                        0x0000000102bc2044 chromedriver + 516164
+7   chromedriver                        0x0000000102ee3a04 chromedriver + 3799556
+8   chromedriver                        0x0000000102ee7ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000102ecc260 chromedriver + 3703392
+10  chromedriver                        0x0000000102ee8a2c chromedriver + 3820076
+11  chromedriver                        0x0000000102ebf01c chromedriver + 3649564
+12  chromedriver                        0x0000000102f05e3c chromedriver + 3939900
+13  chromedriver                        0x0000000102f05fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000102f16660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/salchichon-primavera-lario-x-kg/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000102f1e7dc chromedriver + 4040668
+1   chromedriver                        0x0000000102f169e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102b89870 chromedriver + 284784
+3   chromedriver                        0x0000000102bcd080 chromedriver + 561280
+4   chromedriver                        0x0000000102c07048 chromedriver + 798792
+5   chromedriver                        0x0000000102bc174c chromedriver + 513868
+6   chromedriver                        0x0000000102bc2044 chromedriver + 516164
+7   chromedriver                        0x0000000102ee3a04 chromedriver + 3799556
+8   chromedriver                        0x0000000102ee7ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000102ecc260 chromedriver + 3703392
+10  chromedriver                        0x0000000102ee8a2c chromedriver + 3820076
+11  chromedriver                        0x0000000102ebf01c chromedriver + 3649564
+12  chromedriver                        0x0000000102f05e3c chromedriver + 3939900
+13  chromedriver                        0x0000000102f05fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000102f16660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/aceite-de-girasol-pureza-1500-cc/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000102f1e7dc chromedriver + 4040668
+1   chromedriver                        0x0000000102f169e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102b89870 chromedriver + 284784
+3   chromedriver                        0x0000000102bcd080 chromedriver + 561280
+4   chromedriver                        0x0000000102c07048 chromedriver + 798792
+5   chromedriver                        0x0000000102bc174c chromedriver + 513868
+6   chromedriver                        0x0000000102bc2044 chromedriver + 516164
+7   chromedriver                        0x0000000102ee3a04 chromedriver + 3799556
+8   chromedriver                        0x0000000102ee7ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000102ecc260 chromedriver + 3703392
+10  chromedriver                        0x0000000102ee8a2c chromedriver + 3820076
+11  chromedriver                        0x0000000102ebf01c chromedriver + 3649564
+12  chromedriver                        0x0000000102f05e3c chromedriver + 3939900
+13  chromedriver                        0x0000000102f05fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000102f16660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/margarina-en-pan-delicia-vitamina-a-y-d-200-g-726169/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000102f1e7dc chromedriver + 4040668
+1   chromedriver                        0x0000000102f169e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102b89870 chromedriver + 284784
+3   chromedriver                        0x0000000102bcd080 chromedriver + 561280
+4   chromedriver                        0x0000000102c07048 chromedriver + 798792
+5   chromedriver                        0x0000000102bc174c chromedriver + 513868
+6   chromedriver                        0x0000000102bc2044 chromedriver + 516164
+7   chromedriver                        0x0000000102ee3a04 chromedriver + 3799556
+8   chromedriver                        0x0000000102ee7ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000102ecc260 chromedriver + 3703392
+10  chromedriver                        0x0000000102ee8a2c chromedriver + 3820076
+11  chromedriver                        0x0000000102ebf01c chromedriver + 3649564
+12  chromedriver                        0x0000000102f05e3c chromedriver + 3939900
+13  chromedriver                        0x0000000102f05fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000102f16660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/leche-ultra-entera-carrefour-classic-sachet-1-lt-720020/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000102f1e7dc chromedriver + 4040668
+1   chromedriver                        0x0000000102f169e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102b89870 chromedriver + 284784
+3   chromedriver                        0x0000000102bcd080 chromedriver + 561280
+4   chromedriver                        0x0000000102c07048 chromedriver + 798792
+5   chromedriver                        0x0000000102bc174c chromedriver + 513868
+6   chromedriver                        0x0000000102bc2044 chromedriver + 516164
+7   chromedriver                        0x0000000102ee3a04 chromedriver + 3799556
+8   chromedriver                        0x0000000102ee7ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000102ecc260 chromedriver + 3703392
+10  chromedriver                        0x0000000102ee8a2c chromedriver + 3820076
+11  chromedriver                        0x0000000102ebf01c chromedriver + 3649564
+12  chromedriver                        0x0000000102f05e3c chromedriver + 3939900
+13  chromedriver                        0x0000000102f05fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000102f16660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/leche-en-polvo-la-serenisima-descremada-400-g-677889/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000102f1e7dc chromedriver + 4040668
+1   chromedriver                        0x0000000102f169e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102b89870 chromedriver + 284784
+3   chromedriver                        0x0000000102bcd080 chromedriver + 561280
+4   chromedriver                        0x0000000102c07048 chromedriver + 798792
+5   chromedriver                        0x0000000102bc174c chromedriver + 513868
+6   chromedriver                        0x0000000102bc2044 chromedriver + 516164
+7   chromedriver                        0x0000000102ee3a04 chromedriver + 3799556
+8   chromedriver                        0x0000000102ee7ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000102ecc260 chromedriver + 3703392
+10  chromedriver                        0x0000000102ee8a2c chromedriver + 3820076
+11  chromedriver                        0x0000000102ebf01c chromedriver + 3649564
+12  chromedriver                        0x0000000102f05e3c chromedriver + 3939900
+13  chromedriver                        0x0000000102f05fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000102f16660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/lechuga-francesa-hidroponica-220-g/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000102f1e7dc chromedriver + 4040668
+1   chromedriver                        0x0000000102f169e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102b89870 chromedriver + 284784
+3   chromedriver                        0x0000000102bcd080 chromedriver + 561280
+4   chromedriver                        0x0000000102c07048 chromedriver + 798792
+5   chromedriver                        0x0000000102bc174c chromedriver + 513868
+6   chromedriver                        0x0000000102bc2044 chromedriver + 516164
+7   chromedriver                        0x0000000102ee3a04 chromedriver + 3799556
+8   chromedriver                        0x0000000102ee7ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000102ecc260 chromedriver + 3703392
+10  chromedriver                        0x0000000102ee8a2c chromedriver + 3820076
+11  chromedriver                        0x0000000102ebf01c chromedriver + 3649564
+12  chromedriver                        0x0000000102f05e3c chromedriver + 3939900
+13  chromedriver                        0x0000000102f05fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000102f16660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/tomate-x-kg/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000102f1e7dc chromedriver + 4040668
+1   chromedriver                        0x0000000102f169e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102b89870 chromedriver + 284784
+3   chromedriver                        0x0000000102bcd080 chromedriver + 561280
+4   chromedriver                        0x0000000102c07048 chromedriver + 798792
+5   chromedriver                        0x0000000102bc174c chromedriver + 513868
+6   chromedriver                        0x0000000102bc2044 chromedriver + 516164
+7   chromedriver                        0x0000000102ee3a04 chromedriver + 3799556
+8   chromedriver                        0x0000000102ee7ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000102ecc260 chromedriver + 3703392
+10  chromedriver                        0x0000000102ee8a2c chromedriver + 3820076
+11  chromedriver                        0x0000000102ebf01c chromedriver + 3649564
+12  chromedriver                        0x0000000102f05e3c chromedriver + 3939900
+13  chromedriver                        0x0000000102f05fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000102f16660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Tweet posted successfully. Tweet ID: 1767540147577315717
+Tweet posted successfully. Tweet ID: 1767540150291034456
+Traceback (most recent call last):
+  File "/Users/ivanmanfredi/Desktop/Carrefour/project.py", line 412, in <module>
+    insert_into_db(products_data)
+  File "/Users/ivanmanfredi/Desktop/Carrefour/project.py", line 367, in insert_into_db
+    report_combined_monthly_inflation(conn, scrape_date)
+  File "/Users/ivanmanfredi/Desktop/Carrefour/project.py", line 103, in report_combined_monthly_inflation
+    cur.execute(combined_inflation_query, (f"{month}%",))
+IndexError: tuple index out of range
+Error processing URL https://www.carrefour.com.ar/te-en-saquitos-green-hills-50-u/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010302a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001030229e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102c95870 chromedriver + 284784
+3   chromedriver                        0x0000000102cd9080 chromedriver + 561280
+4   chromedriver                        0x0000000102d13048 chromedriver + 798792
+5   chromedriver                        0x0000000102ccd74c chromedriver + 513868
+6   chromedriver                        0x0000000102cce044 chromedriver + 516164
+7   chromedriver                        0x0000000102fefa04 chromedriver + 3799556
+8   chromedriver                        0x0000000102ff3ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000102fd8260 chromedriver + 3703392
+10  chromedriver                        0x0000000102ff4a2c chromedriver + 3820076
+11  chromedriver                        0x0000000102fcb01c chromedriver + 3649564
+12  chromedriver                        0x0000000103011e3c chromedriver + 3939900
+13  chromedriver                        0x0000000103011fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103022660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/pan-de-salvado-lactal-rodajas-finas-560-g-716486/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010302a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001030229e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102c95870 chromedriver + 284784
+3   chromedriver                        0x0000000102cd9080 chromedriver + 561280
+4   chromedriver                        0x0000000102d13048 chromedriver + 798792
+5   chromedriver                        0x0000000102ccd74c chromedriver + 513868
+6   chromedriver                        0x0000000102cce044 chromedriver + 516164
+7   chromedriver                        0x0000000102fefa04 chromedriver + 3799556
+8   chromedriver                        0x0000000102ff3ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000102fd8260 chromedriver + 3703392
+10  chromedriver                        0x0000000102ff4a2c chromedriver + 3820076
+11  chromedriver                        0x0000000102fcb01c chromedriver + 3649564
+12  chromedriver                        0x0000000103011e3c chromedriver + 3939900
+13  chromedriver                        0x0000000103011fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103022660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/margarina-en-pan-danica-clasica-200-g-726170/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010302a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001030229e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102c95870 chromedriver + 284784
+3   chromedriver                        0x0000000102cd9080 chromedriver + 561280
+4   chromedriver                        0x0000000102d13048 chromedriver + 798792
+5   chromedriver                        0x0000000102ccd74c chromedriver + 513868
+6   chromedriver                        0x0000000102cce044 chromedriver + 516164
+7   chromedriver                        0x0000000102fefa04 chromedriver + 3799556
+8   chromedriver                        0x0000000102ff3ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000102fd8260 chromedriver + 3703392
+10  chromedriver                        0x0000000102ff4a2c chromedriver + 3820076
+11  chromedriver                        0x0000000102fcb01c chromedriver + 3649564
+12  chromedriver                        0x0000000103011e3c chromedriver + 3939900
+13  chromedriver                        0x0000000103011fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103022660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/margarina-en-pan-delicia-vitamina-a-y-d-200-g-726169/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010302a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001030229e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102c95870 chromedriver + 284784
+3   chromedriver                        0x0000000102cd9080 chromedriver + 561280
+4   chromedriver                        0x0000000102d13048 chromedriver + 798792
+5   chromedriver                        0x0000000102ccd74c chromedriver + 513868
+6   chromedriver                        0x0000000102cce044 chromedriver + 516164
+7   chromedriver                        0x0000000102fefa04 chromedriver + 3799556
+8   chromedriver                        0x0000000102ff3ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000102fd8260 chromedriver + 3703392
+10  chromedriver                        0x0000000102ff4a2c chromedriver + 3820076
+11  chromedriver                        0x0000000102fcb01c chromedriver + 3649564
+12  chromedriver                        0x0000000103011e3c chromedriver + 3939900
+13  chromedriver                        0x0000000103011fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103022660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/leche-ultra-entera-carrefour-classic-sachet-1-lt-720020/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010302a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001030229e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102c95870 chromedriver + 284784
+3   chromedriver                        0x0000000102cd9080 chromedriver + 561280
+4   chromedriver                        0x0000000102d13048 chromedriver + 798792
+5   chromedriver                        0x0000000102ccd74c chromedriver + 513868
+6   chromedriver                        0x0000000102cce044 chromedriver + 516164
+7   chromedriver                        0x0000000102fefa04 chromedriver + 3799556
+8   chromedriver                        0x0000000102ff3ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000102fd8260 chromedriver + 3703392
+10  chromedriver                        0x0000000102ff4a2c chromedriver + 3820076
+11  chromedriver                        0x0000000102fcb01c chromedriver + 3649564
+12  chromedriver                        0x0000000103011e3c chromedriver + 3939900
+13  chromedriver                        0x0000000103011fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103022660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/leche-en-polvo-la-serenisima-descremada-400-g-677889/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.112); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010302a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001030229e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102c95870 chromedriver + 284784
+3   chromedriver                        0x0000000102cd9080 chromedriver + 561280
+4   chromedriver                        0x0000000102d13048 chromedriver + 798792
+5   chromedriver                        0x0000000102ccd74c chromedriver + 513868
+6   chromedriver                        0x0000000102cce044 chromedriver + 516164
+7   chromedriver                        0x0000000102fefa04 chromedriver + 3799556
+8   chromedriver                        0x0000000102ff3ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000102fd8260 chromedriver + 3703392
+10  chromedriver                        0x0000000102ff4a2c chromedriver + 3820076
+11  chromedriver                        0x0000000102fcb01c chromedriver + 3649564
+12  chromedriver                        0x0000000103011e3c chromedriver + 3939900
+13  chromedriver                        0x0000000103011fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103022660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Tweet posted successfully. Tweet ID: 1767902475305078941
+Tweet posted successfully. Tweet ID: 1767902477855162733
+Debug: Month - 2024-03
+Debug: SQL Query - 
+    SELECT AVG(monthly_category_inflation_rate) AS overall_monthly_inflation_rate
+    FROM product_prices
+    WHERE CAST(scrape_date AS TEXT) LIKE %s || '%%';
+    
+Debug: Parameter - 2024-03%
+Tweet posted successfully. Tweet ID: 1767902479918747815
+Traceback (most recent call last):
+  File "/Users/ivanmanfredi/Desktop/Carrefour/project.py", line 390, in <module>
+    product_name = driver.find_element(By.XPATH, '//h1[contains(@class, "productNameContainer")]').text
+  File "/opt/homebrew/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 741, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/opt/homebrew/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/opt/homebrew/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.128)
+Stacktrace:
+0   chromedriver                        0x00000001049ae7dc chromedriver + 4040668
+1   chromedriver                        0x00000001049a69e0 chromedriver + 4008416
+2   chromedriver                        0x0000000104619870 chromedriver + 284784
+3   chromedriver                        0x00000001045f4064 chromedriver + 131172
+4   chromedriver                        0x00000001046832b0 chromedriver + 717488
+5   chromedriver                        0x000000010469675c chromedriver + 796508
+6   chromedriver                        0x000000010465174c chromedriver + 513868
+7   chromedriver                        0x0000000104652044 chromedriver + 516164
+8   chromedriver                        0x0000000104973a04 chromedriver + 3799556
+9   chromedriver                        0x0000000104977ee4 chromedriver + 3817188
+10  chromedriver                        0x000000010495c260 chromedriver + 3703392
+11  chromedriver                        0x0000000104978a2c chromedriver + 3820076
+12  chromedriver                        0x000000010494f01c chromedriver + 3649564
+13  chromedriver                        0x0000000104995e3c chromedriver + 3939900
+14  chromedriver                        0x0000000104995fb4 chromedriver + 3940276
+15  chromedriver                        0x00000001049a6660 chromedriver + 4007520
+16  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/te-en-saquitos-green-hills-50-u/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010059a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001005929e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100205870 chromedriver + 284784
+3   chromedriver                        0x0000000100249080 chromedriver + 561280
+4   chromedriver                        0x0000000100283048 chromedriver + 798792
+5   chromedriver                        0x000000010023d74c chromedriver + 513868
+6   chromedriver                        0x000000010023e044 chromedriver + 516164
+7   chromedriver                        0x000000010055fa04 chromedriver + 3799556
+8   chromedriver                        0x0000000100563ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000100548260 chromedriver + 3703392
+10  chromedriver                        0x0000000100564a2c chromedriver + 3820076
+11  chromedriver                        0x000000010053b01c chromedriver + 3649564
+12  chromedriver                        0x0000000100581e3c chromedriver + 3939900
+13  chromedriver                        0x0000000100581fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000100592660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/yerba-mate-rosamonte-con-palo-1-kg-7595/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010059a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001005929e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100205870 chromedriver + 284784
+3   chromedriver                        0x0000000100249080 chromedriver + 561280
+4   chromedriver                        0x0000000100283048 chromedriver + 798792
+5   chromedriver                        0x000000010023d74c chromedriver + 513868
+6   chromedriver                        0x000000010023e044 chromedriver + 516164
+7   chromedriver                        0x000000010055fa04 chromedriver + 3799556
+8   chromedriver                        0x0000000100563ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000100548260 chromedriver + 3703392
+10  chromedriver                        0x0000000100564a2c chromedriver + 3820076
+11  chromedriver                        0x000000010053b01c chromedriver + 3649564
+12  chromedriver                        0x0000000100581e3c chromedriver + 3939900
+13  chromedriver                        0x0000000100581fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000100592660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/vino-tinto-malbec-elementos-750-cc/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010059a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001005929e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100205870 chromedriver + 284784
+3   chromedriver                        0x0000000100249080 chromedriver + 561280
+4   chromedriver                        0x0000000100283048 chromedriver + 798792
+5   chromedriver                        0x000000010023d74c chromedriver + 513868
+6   chromedriver                        0x000000010023e044 chromedriver + 516164
+7   chromedriver                        0x000000010055fa04 chromedriver + 3799556
+8   chromedriver                        0x0000000100563ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000100548260 chromedriver + 3703392
+10  chromedriver                        0x0000000100564a2c chromedriver + 3820076
+11  chromedriver                        0x000000010053b01c chromedriver + 3649564
+12  chromedriver                        0x0000000100581e3c chromedriver + 3939900
+13  chromedriver                        0x0000000100581fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000100592660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/coca-cola-zero-2-25-lts-393964/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010059a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001005929e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100205870 chromedriver + 284784
+3   chromedriver                        0x0000000100249080 chromedriver + 561280
+4   chromedriver                        0x0000000100283048 chromedriver + 798792
+5   chromedriver                        0x000000010023d74c chromedriver + 513868
+6   chromedriver                        0x000000010023e044 chromedriver + 516164
+7   chromedriver                        0x000000010055fa04 chromedriver + 3799556
+8   chromedriver                        0x0000000100563ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000100548260 chromedriver + 3703392
+10  chromedriver                        0x0000000100564a2c chromedriver + 3820076
+11  chromedriver                        0x000000010053b01c chromedriver + 3649564
+12  chromedriver                        0x0000000100581e3c chromedriver + 3939900
+13  chromedriver                        0x0000000100581fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000100592660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/mayonesa-menoyo-doy-pack-250-cc/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010059a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001005929e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100205870 chromedriver + 284784
+3   chromedriver                        0x0000000100249080 chromedriver + 561280
+4   chromedriver                        0x0000000100283048 chromedriver + 798792
+5   chromedriver                        0x000000010023d74c chromedriver + 513868
+6   chromedriver                        0x000000010023e044 chromedriver + 516164
+7   chromedriver                        0x000000010055fa04 chromedriver + 3799556
+8   chromedriver                        0x0000000100563ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000100548260 chromedriver + 3703392
+10  chromedriver                        0x0000000100564a2c chromedriver + 3820076
+11  chromedriver                        0x000000010053b01c chromedriver + 3649564
+12  chromedriver                        0x0000000100581e3c chromedriver + 3939900
+13  chromedriver                        0x0000000100581fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000100592660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/sal-fina-celusal-paquete-500-g/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010059a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001005929e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100205870 chromedriver + 284784
+3   chromedriver                        0x0000000100249080 chromedriver + 561280
+4   chromedriver                        0x0000000100283048 chromedriver + 798792
+5   chromedriver                        0x000000010023d74c chromedriver + 513868
+6   chromedriver                        0x000000010023e044 chromedriver + 516164
+7   chromedriver                        0x000000010055fa04 chromedriver + 3799556
+8   chromedriver                        0x0000000100563ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000100548260 chromedriver + 3703392
+10  chromedriver                        0x0000000100564a2c chromedriver + 3820076
+11  chromedriver                        0x000000010053b01c chromedriver + 3649564
+12  chromedriver                        0x0000000100581e3c chromedriver + 3939900
+13  chromedriver                        0x0000000100581fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000100592660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/galletitas-chocolate-rell-vaini-macucas-110-g/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010059a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001005929e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100205870 chromedriver + 284784
+3   chromedriver                        0x0000000100249080 chromedriver + 561280
+4   chromedriver                        0x0000000100283048 chromedriver + 798792
+5   chromedriver                        0x000000010023d74c chromedriver + 513868
+6   chromedriver                        0x000000010023e044 chromedriver + 516164
+7   chromedriver                        0x000000010055fa04 chromedriver + 3799556
+8   chromedriver                        0x0000000100563ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000100548260 chromedriver + 3703392
+10  chromedriver                        0x0000000100564a2c chromedriver + 3820076
+11  chromedriver                        0x000000010053b01c chromedriver + 3649564
+12  chromedriver                        0x0000000100581e3c chromedriver + 3939900
+13  chromedriver                        0x0000000100581fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000100592660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/harina-de-trigo-pureza-0000-1-kg-551284/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010059a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001005929e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100205870 chromedriver + 284784
+3   chromedriver                        0x0000000100249080 chromedriver + 561280
+4   chromedriver                        0x0000000100283048 chromedriver + 798792
+5   chromedriver                        0x000000010023d74c chromedriver + 513868
+6   chromedriver                        0x000000010023e044 chromedriver + 516164
+7   chromedriver                        0x000000010055fa04 chromedriver + 3799556
+8   chromedriver                        0x0000000100563ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000100548260 chromedriver + 3703392
+10  chromedriver                        0x0000000100564a2c chromedriver + 3820076
+11  chromedriver                        0x000000010053b01c chromedriver + 3649564
+12  chromedriver                        0x0000000100581e3c chromedriver + 3939900
+13  chromedriver                        0x0000000100581fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000100592660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/arroz-parboil-gallo-oro-en-bolsa-500-g-733186/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010059a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001005929e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100205870 chromedriver + 284784
+3   chromedriver                        0x0000000100249080 chromedriver + 561280
+4   chromedriver                        0x0000000100283048 chromedriver + 798792
+5   chromedriver                        0x000000010023d74c chromedriver + 513868
+6   chromedriver                        0x000000010023e044 chromedriver + 516164
+7   chromedriver                        0x000000010055fa04 chromedriver + 3799556
+8   chromedriver                        0x0000000100563ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000100548260 chromedriver + 3703392
+10  chromedriver                        0x0000000100564a2c chromedriver + 3820076
+11  chromedriver                        0x000000010053b01c chromedriver + 3649564
+12  chromedriver                        0x0000000100581e3c chromedriver + 3939900
+13  chromedriver                        0x0000000100581fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000100592660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/aceite-de-girasol-pureza-1500-cc/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010059a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001005929e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100205870 chromedriver + 284784
+3   chromedriver                        0x0000000100249080 chromedriver + 561280
+4   chromedriver                        0x0000000100283048 chromedriver + 798792
+5   chromedriver                        0x000000010023d74c chromedriver + 513868
+6   chromedriver                        0x000000010023e044 chromedriver + 516164
+7   chromedriver                        0x000000010055fa04 chromedriver + 3799556
+8   chromedriver                        0x0000000100563ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000100548260 chromedriver + 3703392
+10  chromedriver                        0x0000000100564a2c chromedriver + 3820076
+11  chromedriver                        0x000000010053b01c chromedriver + 3649564
+12  chromedriver                        0x0000000100581e3c chromedriver + 3939900
+13  chromedriver                        0x0000000100581fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000100592660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/margarina-en-pan-delicia-vitamina-a-y-d-200-g-726169/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010059a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001005929e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100205870 chromedriver + 284784
+3   chromedriver                        0x0000000100249080 chromedriver + 561280
+4   chromedriver                        0x0000000100283048 chromedriver + 798792
+5   chromedriver                        0x000000010023d74c chromedriver + 513868
+6   chromedriver                        0x000000010023e044 chromedriver + 516164
+7   chromedriver                        0x000000010055fa04 chromedriver + 3799556
+8   chromedriver                        0x0000000100563ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000100548260 chromedriver + 3703392
+10  chromedriver                        0x0000000100564a2c chromedriver + 3820076
+11  chromedriver                        0x000000010053b01c chromedriver + 3649564
+12  chromedriver                        0x0000000100581e3c chromedriver + 3939900
+13  chromedriver                        0x0000000100581fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000100592660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/leche-ultra-entera-carrefour-classic-sachet-1-lt-720020/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010059a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001005929e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100205870 chromedriver + 284784
+3   chromedriver                        0x0000000100249080 chromedriver + 561280
+4   chromedriver                        0x0000000100283048 chromedriver + 798792
+5   chromedriver                        0x000000010023d74c chromedriver + 513868
+6   chromedriver                        0x000000010023e044 chromedriver + 516164
+7   chromedriver                        0x000000010055fa04 chromedriver + 3799556
+8   chromedriver                        0x0000000100563ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000100548260 chromedriver + 3703392
+10  chromedriver                        0x0000000100564a2c chromedriver + 3820076
+11  chromedriver                        0x000000010053b01c chromedriver + 3649564
+12  chromedriver                        0x0000000100581e3c chromedriver + 3939900
+13  chromedriver                        0x0000000100581fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000100592660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/leche-en-polvo-la-serenisima-descremada-400-g-677889/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010059a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001005929e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100205870 chromedriver + 284784
+3   chromedriver                        0x0000000100249080 chromedriver + 561280
+4   chromedriver                        0x0000000100283048 chromedriver + 798792
+5   chromedriver                        0x000000010023d74c chromedriver + 513868
+6   chromedriver                        0x000000010023e044 chromedriver + 516164
+7   chromedriver                        0x000000010055fa04 chromedriver + 3799556
+8   chromedriver                        0x0000000100563ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000100548260 chromedriver + 3703392
+10  chromedriver                        0x0000000100564a2c chromedriver + 3820076
+11  chromedriver                        0x000000010053b01c chromedriver + 3649564
+12  chromedriver                        0x0000000100581e3c chromedriver + 3939900
+13  chromedriver                        0x0000000100581fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000100592660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/queso-fundido-finlandia-balance-pote-290-g/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010059a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001005929e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100205870 chromedriver + 284784
+3   chromedriver                        0x0000000100249080 chromedriver + 561280
+4   chromedriver                        0x0000000100283048 chromedriver + 798792
+5   chromedriver                        0x000000010023d74c chromedriver + 513868
+6   chromedriver                        0x000000010023e044 chromedriver + 516164
+7   chromedriver                        0x000000010055fa04 chromedriver + 3799556
+8   chromedriver                        0x0000000100563ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000100548260 chromedriver + 3703392
+10  chromedriver                        0x0000000100564a2c chromedriver + 3820076
+11  chromedriver                        0x000000010053b01c chromedriver + 3649564
+12  chromedriver                        0x0000000100581e3c chromedriver + 3939900
+13  chromedriver                        0x0000000100581fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000100592660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/queso-cuartirolo-don-atilio-x-kg-690591/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010059a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001005929e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100205870 chromedriver + 284784
+3   chromedriver                        0x0000000100249080 chromedriver + 561280
+4   chromedriver                        0x0000000100283048 chromedriver + 798792
+5   chromedriver                        0x000000010023d74c chromedriver + 513868
+6   chromedriver                        0x000000010023e044 chromedriver + 516164
+7   chromedriver                        0x000000010055fa04 chromedriver + 3799556
+8   chromedriver                        0x0000000100563ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000100548260 chromedriver + 3703392
+10  chromedriver                        0x0000000100564a2c chromedriver + 3820076
+11  chromedriver                        0x000000010053b01c chromedriver + 3649564
+12  chromedriver                        0x0000000100581e3c chromedriver + 3939900
+13  chromedriver                        0x0000000100581fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000100592660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/queso-cuartirolo-veronica-trozado-x-kg/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010059a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001005929e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100205870 chromedriver + 284784
+3   chromedriver                        0x0000000100249080 chromedriver + 561280
+4   chromedriver                        0x0000000100283048 chromedriver + 798792
+5   chromedriver                        0x000000010023d74c chromedriver + 513868
+6   chromedriver                        0x000000010023e044 chromedriver + 516164
+7   chromedriver                        0x000000010055fa04 chromedriver + 3799556
+8   chromedriver                        0x0000000100563ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000100548260 chromedriver + 3703392
+10  chromedriver                        0x0000000100564a2c chromedriver + 3820076
+11  chromedriver                        0x000000010053b01c chromedriver + 3649564
+12  chromedriver                        0x0000000100581e3c chromedriver + 3939900
+13  chromedriver                        0x0000000100581fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000100592660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/dulce-de-leche-san-ignacio-tradicional-400-g/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010059a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001005929e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100205870 chromedriver + 284784
+3   chromedriver                        0x0000000100249080 chromedriver + 561280
+4   chromedriver                        0x0000000100283048 chromedriver + 798792
+5   chromedriver                        0x000000010023d74c chromedriver + 513868
+6   chromedriver                        0x000000010023e044 chromedriver + 516164
+7   chromedriver                        0x000000010055fa04 chromedriver + 3799556
+8   chromedriver                        0x0000000100563ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000100548260 chromedriver + 3703392
+10  chromedriver                        0x0000000100564a2c chromedriver + 3820076
+11  chromedriver                        0x000000010053b01c chromedriver + 3649564
+12  chromedriver                        0x0000000100581e3c chromedriver + 3939900
+13  chromedriver                        0x0000000100581fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000100592660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/lechuga-francesa-hidroponica-220-g/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010059a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001005929e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100205870 chromedriver + 284784
+3   chromedriver                        0x0000000100249080 chromedriver + 561280
+4   chromedriver                        0x0000000100283048 chromedriver + 798792
+5   chromedriver                        0x000000010023d74c chromedriver + 513868
+6   chromedriver                        0x000000010023e044 chromedriver + 516164
+7   chromedriver                        0x000000010055fa04 chromedriver + 3799556
+8   chromedriver                        0x0000000100563ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000100548260 chromedriver + 3703392
+10  chromedriver                        0x0000000100564a2c chromedriver + 3820076
+11  chromedriver                        0x000000010053b01c chromedriver + 3649564
+12  chromedriver                        0x0000000100581e3c chromedriver + 3939900
+13  chromedriver                        0x0000000100581fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000100592660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/tomate-x-kg/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010059a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001005929e0 chromedriver + 4008416
+2   chromedriver                        0x0000000100205870 chromedriver + 284784
+3   chromedriver                        0x0000000100249080 chromedriver + 561280
+4   chromedriver                        0x0000000100283048 chromedriver + 798792
+5   chromedriver                        0x000000010023d74c chromedriver + 513868
+6   chromedriver                        0x000000010023e044 chromedriver + 516164
+7   chromedriver                        0x000000010055fa04 chromedriver + 3799556
+8   chromedriver                        0x0000000100563ee4 chromedriver + 3817188
+9   chromedriver                        0x0000000100548260 chromedriver + 3703392
+10  chromedriver                        0x0000000100564a2c chromedriver + 3820076
+11  chromedriver                        0x000000010053b01c chromedriver + 3649564
+12  chromedriver                        0x0000000100581e3c chromedriver + 3939900
+13  chromedriver                        0x0000000100581fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000100592660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Tweet posted successfully. Tweet ID: 1768627253791908009
+Tweet posted successfully. Tweet ID: 1768627256509755835
+Debug: Month - 2024-03
+Debug: SQL Query - 
+    SELECT AVG(monthly_category_inflation_rate) AS overall_monthly_inflation_rate
+    FROM product_prices
+    WHERE CAST(scrape_date AS TEXT) LIKE %s || '%%';
+    
+Debug: Parameter - 2024-03%
+Tweet posted successfully. Tweet ID: 1768627259483549902
+Error processing URL https://www.carrefour.com.ar/te-en-saquitos-green-hills-50-u/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010320a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001032029e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102e75870 chromedriver + 284784
+3   chromedriver                        0x0000000102eb9080 chromedriver + 561280
+4   chromedriver                        0x0000000102ef3048 chromedriver + 798792
+5   chromedriver                        0x0000000102ead74c chromedriver + 513868
+6   chromedriver                        0x0000000102eae044 chromedriver + 516164
+7   chromedriver                        0x00000001031cfa04 chromedriver + 3799556
+8   chromedriver                        0x00000001031d3ee4 chromedriver + 3817188
+9   chromedriver                        0x00000001031b8260 chromedriver + 3703392
+10  chromedriver                        0x00000001031d4a2c chromedriver + 3820076
+11  chromedriver                        0x00000001031ab01c chromedriver + 3649564
+12  chromedriver                        0x00000001031f1e3c chromedriver + 3939900
+13  chromedriver                        0x00000001031f1fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103202660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/yerba-mate-rosamonte-con-palo-1-kg-7595/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010320a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001032029e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102e75870 chromedriver + 284784
+3   chromedriver                        0x0000000102eb9080 chromedriver + 561280
+4   chromedriver                        0x0000000102ef3048 chromedriver + 798792
+5   chromedriver                        0x0000000102ead74c chromedriver + 513868
+6   chromedriver                        0x0000000102eae044 chromedriver + 516164
+7   chromedriver                        0x00000001031cfa04 chromedriver + 3799556
+8   chromedriver                        0x00000001031d3ee4 chromedriver + 3817188
+9   chromedriver                        0x00000001031b8260 chromedriver + 3703392
+10  chromedriver                        0x00000001031d4a2c chromedriver + 3820076
+11  chromedriver                        0x00000001031ab01c chromedriver + 3649564
+12  chromedriver                        0x00000001031f1e3c chromedriver + 3939900
+13  chromedriver                        0x00000001031f1fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103202660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/vino-tinto-malbec-elementos-750-cc/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010320a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001032029e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102e75870 chromedriver + 284784
+3   chromedriver                        0x0000000102eb9080 chromedriver + 561280
+4   chromedriver                        0x0000000102ef3048 chromedriver + 798792
+5   chromedriver                        0x0000000102ead74c chromedriver + 513868
+6   chromedriver                        0x0000000102eae044 chromedriver + 516164
+7   chromedriver                        0x00000001031cfa04 chromedriver + 3799556
+8   chromedriver                        0x00000001031d3ee4 chromedriver + 3817188
+9   chromedriver                        0x00000001031b8260 chromedriver + 3703392
+10  chromedriver                        0x00000001031d4a2c chromedriver + 3820076
+11  chromedriver                        0x00000001031ab01c chromedriver + 3649564
+12  chromedriver                        0x00000001031f1e3c chromedriver + 3939900
+13  chromedriver                        0x00000001031f1fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103202660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/coca-cola-zero-2-25-lts-393964/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010320a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001032029e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102e75870 chromedriver + 284784
+3   chromedriver                        0x0000000102eb9080 chromedriver + 561280
+4   chromedriver                        0x0000000102ef3048 chromedriver + 798792
+5   chromedriver                        0x0000000102ead74c chromedriver + 513868
+6   chromedriver                        0x0000000102eae044 chromedriver + 516164
+7   chromedriver                        0x00000001031cfa04 chromedriver + 3799556
+8   chromedriver                        0x00000001031d3ee4 chromedriver + 3817188
+9   chromedriver                        0x00000001031b8260 chromedriver + 3703392
+10  chromedriver                        0x00000001031d4a2c chromedriver + 3820076
+11  chromedriver                        0x00000001031ab01c chromedriver + 3649564
+12  chromedriver                        0x00000001031f1e3c chromedriver + 3939900
+13  chromedriver                        0x00000001031f1fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103202660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/mayonesa-menoyo-doy-pack-250-cc/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010320a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001032029e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102e75870 chromedriver + 284784
+3   chromedriver                        0x0000000102eb9080 chromedriver + 561280
+4   chromedriver                        0x0000000102ef3048 chromedriver + 798792
+5   chromedriver                        0x0000000102ead74c chromedriver + 513868
+6   chromedriver                        0x0000000102eae044 chromedriver + 516164
+7   chromedriver                        0x00000001031cfa04 chromedriver + 3799556
+8   chromedriver                        0x00000001031d3ee4 chromedriver + 3817188
+9   chromedriver                        0x00000001031b8260 chromedriver + 3703392
+10  chromedriver                        0x00000001031d4a2c chromedriver + 3820076
+11  chromedriver                        0x00000001031ab01c chromedriver + 3649564
+12  chromedriver                        0x00000001031f1e3c chromedriver + 3939900
+13  chromedriver                        0x00000001031f1fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103202660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/sal-fina-celusal-paquete-500-g/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010320a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001032029e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102e75870 chromedriver + 284784
+3   chromedriver                        0x0000000102eb9080 chromedriver + 561280
+4   chromedriver                        0x0000000102ef3048 chromedriver + 798792
+5   chromedriver                        0x0000000102ead74c chromedriver + 513868
+6   chromedriver                        0x0000000102eae044 chromedriver + 516164
+7   chromedriver                        0x00000001031cfa04 chromedriver + 3799556
+8   chromedriver                        0x00000001031d3ee4 chromedriver + 3817188
+9   chromedriver                        0x00000001031b8260 chromedriver + 3703392
+10  chromedriver                        0x00000001031d4a2c chromedriver + 3820076
+11  chromedriver                        0x00000001031ab01c chromedriver + 3649564
+12  chromedriver                        0x00000001031f1e3c chromedriver + 3939900
+13  chromedriver                        0x00000001031f1fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103202660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/galletitas-chocolate-rell-vaini-macucas-110-g/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010320a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001032029e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102e75870 chromedriver + 284784
+3   chromedriver                        0x0000000102eb9080 chromedriver + 561280
+4   chromedriver                        0x0000000102ef3048 chromedriver + 798792
+5   chromedriver                        0x0000000102ead74c chromedriver + 513868
+6   chromedriver                        0x0000000102eae044 chromedriver + 516164
+7   chromedriver                        0x00000001031cfa04 chromedriver + 3799556
+8   chromedriver                        0x00000001031d3ee4 chromedriver + 3817188
+9   chromedriver                        0x00000001031b8260 chromedriver + 3703392
+10  chromedriver                        0x00000001031d4a2c chromedriver + 3820076
+11  chromedriver                        0x00000001031ab01c chromedriver + 3649564
+12  chromedriver                        0x00000001031f1e3c chromedriver + 3939900
+13  chromedriver                        0x00000001031f1fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103202660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/harina-de-trigo-pureza-0000-1-kg-551284/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010320a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001032029e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102e75870 chromedriver + 284784
+3   chromedriver                        0x0000000102eb9080 chromedriver + 561280
+4   chromedriver                        0x0000000102ef3048 chromedriver + 798792
+5   chromedriver                        0x0000000102ead74c chromedriver + 513868
+6   chromedriver                        0x0000000102eae044 chromedriver + 516164
+7   chromedriver                        0x00000001031cfa04 chromedriver + 3799556
+8   chromedriver                        0x00000001031d3ee4 chromedriver + 3817188
+9   chromedriver                        0x00000001031b8260 chromedriver + 3703392
+10  chromedriver                        0x00000001031d4a2c chromedriver + 3820076
+11  chromedriver                        0x00000001031ab01c chromedriver + 3649564
+12  chromedriver                        0x00000001031f1e3c chromedriver + 3939900
+13  chromedriver                        0x00000001031f1fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103202660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/fideos-tallarines-don-vicente-en-bolsa-500-g-729408/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010320a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001032029e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102e75870 chromedriver + 284784
+3   chromedriver                        0x0000000102eb9080 chromedriver + 561280
+4   chromedriver                        0x0000000102ef3048 chromedriver + 798792
+5   chromedriver                        0x0000000102ead74c chromedriver + 513868
+6   chromedriver                        0x0000000102eae044 chromedriver + 516164
+7   chromedriver                        0x00000001031cfa04 chromedriver + 3799556
+8   chromedriver                        0x00000001031d3ee4 chromedriver + 3817188
+9   chromedriver                        0x00000001031b8260 chromedriver + 3703392
+10  chromedriver                        0x00000001031d4a2c chromedriver + 3820076
+11  chromedriver                        0x00000001031ab01c chromedriver + 3649564
+12  chromedriver                        0x00000001031f1e3c chromedriver + 3939900
+13  chromedriver                        0x00000001031f1fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103202660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/salchichon-primavera-lario-x-kg/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010320a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001032029e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102e75870 chromedriver + 284784
+3   chromedriver                        0x0000000102eb9080 chromedriver + 561280
+4   chromedriver                        0x0000000102ef3048 chromedriver + 798792
+5   chromedriver                        0x0000000102ead74c chromedriver + 513868
+6   chromedriver                        0x0000000102eae044 chromedriver + 516164
+7   chromedriver                        0x00000001031cfa04 chromedriver + 3799556
+8   chromedriver                        0x00000001031d3ee4 chromedriver + 3817188
+9   chromedriver                        0x00000001031b8260 chromedriver + 3703392
+10  chromedriver                        0x00000001031d4a2c chromedriver + 3820076
+11  chromedriver                        0x00000001031ab01c chromedriver + 3649564
+12  chromedriver                        0x00000001031f1e3c chromedriver + 3939900
+13  chromedriver                        0x00000001031f1fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103202660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/aceite-de-girasol-pureza-1500-cc/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010320a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001032029e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102e75870 chromedriver + 284784
+3   chromedriver                        0x0000000102eb9080 chromedriver + 561280
+4   chromedriver                        0x0000000102ef3048 chromedriver + 798792
+5   chromedriver                        0x0000000102ead74c chromedriver + 513868
+6   chromedriver                        0x0000000102eae044 chromedriver + 516164
+7   chromedriver                        0x00000001031cfa04 chromedriver + 3799556
+8   chromedriver                        0x00000001031d3ee4 chromedriver + 3817188
+9   chromedriver                        0x00000001031b8260 chromedriver + 3703392
+10  chromedriver                        0x00000001031d4a2c chromedriver + 3820076
+11  chromedriver                        0x00000001031ab01c chromedriver + 3649564
+12  chromedriver                        0x00000001031f1e3c chromedriver + 3939900
+13  chromedriver                        0x00000001031f1fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103202660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/margarina-en-pan-delicia-vitamina-a-y-d-200-g-726169/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010320a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001032029e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102e75870 chromedriver + 284784
+3   chromedriver                        0x0000000102eb9080 chromedriver + 561280
+4   chromedriver                        0x0000000102ef3048 chromedriver + 798792
+5   chromedriver                        0x0000000102ead74c chromedriver + 513868
+6   chromedriver                        0x0000000102eae044 chromedriver + 516164
+7   chromedriver                        0x00000001031cfa04 chromedriver + 3799556
+8   chromedriver                        0x00000001031d3ee4 chromedriver + 3817188
+9   chromedriver                        0x00000001031b8260 chromedriver + 3703392
+10  chromedriver                        0x00000001031d4a2c chromedriver + 3820076
+11  chromedriver                        0x00000001031ab01c chromedriver + 3649564
+12  chromedriver                        0x00000001031f1e3c chromedriver + 3939900
+13  chromedriver                        0x00000001031f1fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103202660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/leche-ultra-entera-carrefour-classic-sachet-1-lt-720020/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010320a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001032029e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102e75870 chromedriver + 284784
+3   chromedriver                        0x0000000102eb9080 chromedriver + 561280
+4   chromedriver                        0x0000000102ef3048 chromedriver + 798792
+5   chromedriver                        0x0000000102ead74c chromedriver + 513868
+6   chromedriver                        0x0000000102eae044 chromedriver + 516164
+7   chromedriver                        0x00000001031cfa04 chromedriver + 3799556
+8   chromedriver                        0x00000001031d3ee4 chromedriver + 3817188
+9   chromedriver                        0x00000001031b8260 chromedriver + 3703392
+10  chromedriver                        0x00000001031d4a2c chromedriver + 3820076
+11  chromedriver                        0x00000001031ab01c chromedriver + 3649564
+12  chromedriver                        0x00000001031f1e3c chromedriver + 3939900
+13  chromedriver                        0x00000001031f1fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103202660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/leche-en-polvo-la-serenisima-descremada-400-g-677889/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010320a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001032029e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102e75870 chromedriver + 284784
+3   chromedriver                        0x0000000102eb9080 chromedriver + 561280
+4   chromedriver                        0x0000000102ef3048 chromedriver + 798792
+5   chromedriver                        0x0000000102ead74c chromedriver + 513868
+6   chromedriver                        0x0000000102eae044 chromedriver + 516164
+7   chromedriver                        0x00000001031cfa04 chromedriver + 3799556
+8   chromedriver                        0x00000001031d3ee4 chromedriver + 3817188
+9   chromedriver                        0x00000001031b8260 chromedriver + 3703392
+10  chromedriver                        0x00000001031d4a2c chromedriver + 3820076
+11  chromedriver                        0x00000001031ab01c chromedriver + 3649564
+12  chromedriver                        0x00000001031f1e3c chromedriver + 3939900
+13  chromedriver                        0x00000001031f1fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103202660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/queso-fundido-finlandia-balance-pote-290-g/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010320a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001032029e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102e75870 chromedriver + 284784
+3   chromedriver                        0x0000000102eb9080 chromedriver + 561280
+4   chromedriver                        0x0000000102ef3048 chromedriver + 798792
+5   chromedriver                        0x0000000102ead74c chromedriver + 513868
+6   chromedriver                        0x0000000102eae044 chromedriver + 516164
+7   chromedriver                        0x00000001031cfa04 chromedriver + 3799556
+8   chromedriver                        0x00000001031d3ee4 chromedriver + 3817188
+9   chromedriver                        0x00000001031b8260 chromedriver + 3703392
+10  chromedriver                        0x00000001031d4a2c chromedriver + 3820076
+11  chromedriver                        0x00000001031ab01c chromedriver + 3649564
+12  chromedriver                        0x00000001031f1e3c chromedriver + 3939900
+13  chromedriver                        0x00000001031f1fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103202660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/queso-cuartirolo-don-atilio-x-kg-690591/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010320a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001032029e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102e75870 chromedriver + 284784
+3   chromedriver                        0x0000000102eb9080 chromedriver + 561280
+4   chromedriver                        0x0000000102ef3048 chromedriver + 798792
+5   chromedriver                        0x0000000102ead74c chromedriver + 513868
+6   chromedriver                        0x0000000102eae044 chromedriver + 516164
+7   chromedriver                        0x00000001031cfa04 chromedriver + 3799556
+8   chromedriver                        0x00000001031d3ee4 chromedriver + 3817188
+9   chromedriver                        0x00000001031b8260 chromedriver + 3703392
+10  chromedriver                        0x00000001031d4a2c chromedriver + 3820076
+11  chromedriver                        0x00000001031ab01c chromedriver + 3649564
+12  chromedriver                        0x00000001031f1e3c chromedriver + 3939900
+13  chromedriver                        0x00000001031f1fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103202660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/queso-cuartirolo-veronica-trozado-x-kg/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010320a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001032029e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102e75870 chromedriver + 284784
+3   chromedriver                        0x0000000102eb9080 chromedriver + 561280
+4   chromedriver                        0x0000000102ef3048 chromedriver + 798792
+5   chromedriver                        0x0000000102ead74c chromedriver + 513868
+6   chromedriver                        0x0000000102eae044 chromedriver + 516164
+7   chromedriver                        0x00000001031cfa04 chromedriver + 3799556
+8   chromedriver                        0x00000001031d3ee4 chromedriver + 3817188
+9   chromedriver                        0x00000001031b8260 chromedriver + 3703392
+10  chromedriver                        0x00000001031d4a2c chromedriver + 3820076
+11  chromedriver                        0x00000001031ab01c chromedriver + 3649564
+12  chromedriver                        0x00000001031f1e3c chromedriver + 3939900
+13  chromedriver                        0x00000001031f1fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103202660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/manteca-la-paulina-100-g-444743/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010320a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001032029e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102e75870 chromedriver + 284784
+3   chromedriver                        0x0000000102eb9080 chromedriver + 561280
+4   chromedriver                        0x0000000102ef3048 chromedriver + 798792
+5   chromedriver                        0x0000000102ead74c chromedriver + 513868
+6   chromedriver                        0x0000000102eae044 chromedriver + 516164
+7   chromedriver                        0x00000001031cfa04 chromedriver + 3799556
+8   chromedriver                        0x00000001031d3ee4 chromedriver + 3817188
+9   chromedriver                        0x00000001031b8260 chromedriver + 3703392
+10  chromedriver                        0x00000001031d4a2c chromedriver + 3820076
+11  chromedriver                        0x00000001031ab01c chromedriver + 3649564
+12  chromedriver                        0x00000001031f1e3c chromedriver + 3939900
+13  chromedriver                        0x00000001031f1fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103202660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/dulce-de-leche-san-ignacio-tradicional-400-g/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010320a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001032029e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102e75870 chromedriver + 284784
+3   chromedriver                        0x0000000102eb9080 chromedriver + 561280
+4   chromedriver                        0x0000000102ef3048 chromedriver + 798792
+5   chromedriver                        0x0000000102ead74c chromedriver + 513868
+6   chromedriver                        0x0000000102eae044 chromedriver + 516164
+7   chromedriver                        0x00000001031cfa04 chromedriver + 3799556
+8   chromedriver                        0x00000001031d3ee4 chromedriver + 3817188
+9   chromedriver                        0x00000001031b8260 chromedriver + 3703392
+10  chromedriver                        0x00000001031d4a2c chromedriver + 3820076
+11  chromedriver                        0x00000001031ab01c chromedriver + 3649564
+12  chromedriver                        0x00000001031f1e3c chromedriver + 3939900
+13  chromedriver                        0x00000001031f1fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103202660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error processing URL https://www.carrefour.com.ar/lechuga-francesa-hidroponica-220-g/p: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, "product-price-0-x-sellingPriceValue")]"}
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x000000010320a7dc chromedriver + 4040668
+1   chromedriver                        0x00000001032029e0 chromedriver + 4008416
+2   chromedriver                        0x0000000102e75870 chromedriver + 284784
+3   chromedriver                        0x0000000102eb9080 chromedriver + 561280
+4   chromedriver                        0x0000000102ef3048 chromedriver + 798792
+5   chromedriver                        0x0000000102ead74c chromedriver + 513868
+6   chromedriver                        0x0000000102eae044 chromedriver + 516164
+7   chromedriver                        0x00000001031cfa04 chromedriver + 3799556
+8   chromedriver                        0x00000001031d3ee4 chromedriver + 3817188
+9   chromedriver                        0x00000001031b8260 chromedriver + 3703392
+10  chromedriver                        0x00000001031d4a2c chromedriver + 3820076
+11  chromedriver                        0x00000001031ab01c chromedriver + 3649564
+12  chromedriver                        0x00000001031f1e3c chromedriver + 3939900
+13  chromedriver                        0x00000001031f1fb4 chromedriver + 3940276
+14  chromedriver                        0x0000000103202660 chromedriver + 4007520
+15  libsystem_pthread.dylib             0x0000000180849034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000180843e3c thread_start + 8
+
+Error posting tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
+Error posting tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
+Debug: Month - 2024-03
+Debug: SQL Query - 
+    SELECT AVG(monthly_category_inflation_rate) AS overall_monthly_inflation_rate
+    FROM product_prices
+    WHERE CAST(scrape_date AS TEXT) LIKE %s || '%%';
+    
+Debug: Parameter - 2024-03%
+Error posting tweet: 403 Forbidden
+You are not allowed to create a Tweet with duplicate content.
