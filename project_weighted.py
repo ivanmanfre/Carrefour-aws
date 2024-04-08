@@ -22,7 +22,7 @@ chrome_options.add_argument("--headless")  # Important for headless running
 chrome_options.add_argument("--no-sandbox")  # Bypass OS security model, required for headless
 chrome_options.add_argument("--disable-dev-shm-usage")  # Overcome limited resource problems
 chrome_options.add_argument("--disable-gpu")  # Applicable for headless running
-chrome_options.add_argument("--remote-debugging-port=9222")  # If you need debugging
+
 
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
 # Database connection parameters
@@ -543,6 +543,7 @@ for url in product_urls:
     try:
         product_cat = determine_product_cat(url)
         driver.get(url)
+        print(url)
         time.sleep(3)  # Adjust sleep time based on page load times
 
         product_name = driver.find_element(By.XPATH, '//h1[contains(@class, "productNameContainer")]').text
