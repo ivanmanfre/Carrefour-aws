@@ -1,6 +1,4 @@
 from selenium import webdriver
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -33,7 +31,7 @@ user = 'postgres'
 password = 'Mamama00.'
 host = 'database-1.cfke6mia4o8l.us-east-1.rds.amazonaws.com'
 port= '5432'
-# Specify the path to ChromeDriver
+
 #service = Service('/Users/ivanmanfredi/Downloads/chromedriver-mac-arm64/chromedriver')
 
 
@@ -546,12 +544,9 @@ for url in product_urls:
         product_cat = determine_product_cat(url)
         driver.get(url)
         print(url)
-        time.sleep(6)  # Adjust sleep time based on page load times
+        time.sleep(10)  # Adjust sleep time based on page load times
 
-        wait = WebDriverWait(driver, 10)  # Adjust the timeout to your needs
-        product_name_element = wait.until(
-        EC.presence_of_element_located((By.XPATH, '//h1[contains(@class, "productNameContainer")]')))
-        product_name = product_name_element.text
+        product_name = driver.find_element(By.XPATH, '//h1[contains(@class, "productNameContainer")]').text
         product_price = ''  # Default value if price is not found as an empty string
         
         try:  # Attempt to fetch the price details
