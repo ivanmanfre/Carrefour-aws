@@ -544,7 +544,7 @@ for url in product_urls:
         product_cat = determine_product_cat(url)
         driver.get(url)
         print(url)
-        time.sleep(3)  # Adjust sleep time based on page load times
+        time.sleep(6)  # Adjust sleep time based on page load times
 
         product_name = driver.find_element(By.XPATH, '//h1[contains(@class, "productNameContainer")]').text
         product_price = ''  # Default value if price is not found as an empty string
