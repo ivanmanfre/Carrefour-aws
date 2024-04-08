@@ -1,4 +1,6 @@
 from selenium import webdriver
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -546,7 +548,10 @@ for url in product_urls:
         print(url)
         time.sleep(6)  # Adjust sleep time based on page load times
 
-        product_name = driver.find_element(By.XPATH, '//h1[contains(@class, "productNameContainer")]').text
+        wait = WebDriverWait(driver, 10)  # Adjust the timeout to your needs
+        product_name_element = wait.until(
+        EC.presence_of_element_located((By.XPATH, '//h1[contains(@class, "productNameContainer")]')))
+        product_name = product_name_element.text
         product_price = ''  # Default value if price is not found as an empty string
         
         try:  # Attempt to fetch the price details
