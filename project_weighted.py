@@ -369,12 +369,12 @@ def determine_product_cat(url):
 def apply_category_weight(category):
     weights = {
     # High Importance
-    "Pan Lactal": 1.5, "Arroz": 3, "Pollo": 6, "Huevo": 40, "Tomate": 4, "Acelga": 2, "Leche Entera": 10, "Zapallo": 17 , "Lechuga": 4, "Yogur Bebible": 5, "Pera": 4, "Manzana Roja": 5,
-    "Lentejas": 5, "Arvejas": 7, "Cebolla": 6, "Choclo en Granos": 1.5, "Batata": 10, "Agua con Gas": 6, "Carnaza": 2, "Nalga": 1.3, "Queso Cuartirolo": 1.3,
+    "Pan Lactal": 1.5, "Arroz": 3, "Pollo": 6, "Huevo": 40, "Tomate": 3, "Acelga": 2, "Leche Entera": 10, "Zapallo": 17 , "Lechuga": 4, "Yogur Bebible": 5, "Pera": 4, "Manzana Roja": 5,
+    "Lentejas": 5, "Arvejas": 7, "Cebolla": 6, "Choclo en Granos": 1.5, "Batata": 15, "Agua con Gas": 6, "Carnaza": 2, "Nalga": 1.3, "Queso Cuartirolo": 1.3,
     # Proteins
-    "Filet de Merluza": 0.7, "Asado": 1.2, "Carre de Cerdo": 26, "Pechito de Cerdo": 30, "Paleta Vaca": 1.2, "Carne Picada": 3.5,
+    "Filet de Merluza": 0.7, "Asado": 1.2, "Carre de Cerdo": 26, "Pechito de Cerdo": 30, "Paleta Vaca": 1.4, "Carne Picada": 3.5,
     # Standard Importance
-    "Café Instantáneo": 0.2, "Yerba Mate": 2, "Aceite de Girasol": 6, "Sal Fina": 3, "Azucar": 6, "Manteca": 0.7, "Queso Rallado": 0.4, "Tomate Enlatado": 4, "Pastas": 3.5, "Queso untable": 1,
+    "Café Instantáneo": 0.25, "Yerba Mate": 2, "Aceite de Girasol": 6, "Sal Fina": 3, "Azucar": 6, "Manteca": 0.7, "Queso Rallado": 0.4, "Tomate Enlatado": 4, "Pastas": 3.5, "Queso untable": 1,
     # Processed Meats
     "Mortadela": 1.5, "Paleta Cocida": 0.5, "Salchichon": 0.5, "Salame": 0.3,
     # Less Essential or Healthier Options
