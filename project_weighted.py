@@ -109,7 +109,7 @@ def report_top_categories(conn, scrape_date):
         for product_category, price_change_percentage in price_increases:
             message += f"{product_category}: {price_change_percentage:.2f}%\n"
         
-        print(message)
+        post_to_twitter(message)
     else:
         print("No data available for price increases.")
 def report_price_reductions(conn, scrape_date):
@@ -154,7 +154,7 @@ def report_price_reductions(conn, scrape_date):
         message = f"Categorías con mayor reducción de precios al {formatted_scrape_date}:\n"
         for product_category, price_change_percentage in price_reductions:
             message += f"{product_category}: {price_change_percentage:.2f}%\n"
-        print(message)  # Replace with your preferred method of output, e.g., logging or tweeting
+        post_to_twitter(message)  # Replace with your preferred method of output, e.g., logging or tweeting
     else:
         print("No data available for price reductions.")
 def report_canasta_price_change(conn, scrape_date):
@@ -191,8 +191,8 @@ def report_canasta_price_change(conn, scrape_date):
         message = f"La variación acumulada de precios de la canasta al {formatted_scrape_date} es del {inflation_rate:.2f}%."
         
         if date_object == last_day_of_current_month:
-            message += " Esta es la tasa final de inflación para el mes actual."
-        print(message)    
+            message += " Esta es la tasa final de variación de precios para el mes actual."
+        post_to_twitter(message)    
     else:
         message = "Datos insuficientes para calcular la variación de la canasta."
         print(message)
