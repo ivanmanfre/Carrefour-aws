@@ -526,8 +526,8 @@ def insert_into_db(product_data):
     conn.close()
 
 # Adjust this path to where you save your file
-#product_urls_file = '/home/ec2-user/carrefour-aws/product_urls.txt'
-product_urls_file = '/Users/ivanmanfredi/Desktop/Carrefour-aws/product_urls.txt'
+product_urls_file = '/home/ec2-user/carrefour-aws/product_urls.txt'
+#product_urls_file = '/Users/ivanmanfredi/Desktop/Carrefour-aws/product_urls.txt'
 product_urls = read_product_urls(product_urls_file)
 
 # Current date 
