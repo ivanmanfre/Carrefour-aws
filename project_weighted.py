@@ -29,8 +29,7 @@ chrome_options.add_argument("--no-sandbox")  # Bypass OS security model, require
 chrome_options.add_argument("--disable-dev-shm-usage")  # Overcome limited resource problems
 chrome_options.add_argument("--window-size=1920,1080")
 chrome_options.add_argument("--disable-gpu")  # Applicable for headless running
-chrome_options.add_argument("--verbose")
-chrome_options.add_argument("--log-path=chrome.log")
+chrome_options.add_argument('--disable-software-rasterizer')
 
 
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
@@ -535,8 +534,8 @@ def insert_into_db(product_data):
     conn.close()
 
 # Adjust this path to where you save your file
-product_urls_file = '/home/ec2-user/carrefour-aws/product_urls.txt'
-#product_urls_file = '/Users/ivanmanfredi/Desktop/Carrefour-aws/product_urls.txt'
+#product_urls_file = '/home/ec2-user/carrefour-aws/product_urls.txt'
+product_urls_file = '/Users/ivanmanfredi/Desktop/Carrefour-aws/product_urls.txt'
 product_urls = read_product_urls(product_urls_file)
 
 # Current date 
