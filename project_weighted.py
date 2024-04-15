@@ -555,8 +555,9 @@ for url in product_urls:
         print(url)
         time.sleep(5)  # Adjust sleep time based on page load times
 
+        product_name_xpath = '//h1[contains(@class, "productNameContainer")]/span[contains(@class, "productBrand")]'
         product_name_element = WebDriverWait(driver, 30).until(
-            EC.visibility_of_element_located((By.XPATH, '//h1[contains(@class, "productNameContainer")]'))
+            EC.visibility_of_element_located((By.XPATH, product_name_xpath))
         )
         product_name = product_name_element.text
         product_price = ''  # Default value if price is not found as an empty string
