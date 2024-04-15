@@ -21,7 +21,7 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 # Increase the default script timeout
 capabilities = DesiredCapabilities.CHROME.copy()
 capabilities['pageLoadStrategy'] = 'eager'  # This can be 'eager' or 'none' if you want to be more aggressive
-capabilities['timeouts'] = {'script': 10000, 'pageLoad': 100000, 'implicit': 10000}  # in milliseconds
+
 
 chrome_options = Options()
 chrome_options.add_argument("--headless")  # Important for headless running
