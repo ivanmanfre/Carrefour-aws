@@ -14,7 +14,8 @@ import locale
 from babel.dates import format_date
 from webdriver_manager.chrome import ChromeDriverManager
 from decimal import Decimal
-
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
      
 
 chrome_options = Options()
@@ -545,9 +546,12 @@ for url in product_urls:
         product_cat = determine_product_cat(url)
         driver.get(url)
         print(url)
-        time.sleep(15)  # Adjust sleep time based on page load times
+        time.sleep(5)  # Adjust sleep time based on page load times
 
-        product_name = driver.find_element(By.XPATH, '//h1[contains(@class, "productNameContainer")]').text
+        product_name_element = WebDriverWait(driver, 30).until(
+            EC.visibility_of_element_located((By.XPATH, '//h1[contains(@class, "productNameContainer")]'))
+        )
+        product_name = product_name_element.text
         product_price = ''  # Default value if price is not found as an empty string
         
         try:  # Attempt to fetch the price details
