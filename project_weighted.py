@@ -562,9 +562,11 @@ for url in product_urls:
         product_price = ''  # Default value if price is not found as an empty string
         
         try:  # Attempt to fetch the price details
-            price_element = driver.find_element(By.XPATH, '//*[contains(@class, "product-price-0-x-sellingPriceValue")]')
+            price_element = WebDriverWait(driver, 30).until(
+            EC.visibility_of_element_located((By.XPATH, '//*[contains(@class, "product-price-0-x-sellingPriceValue")]')))
             if "c/u" in price_element.text or "%" in price_element.text:
-                product_price_element = driver.find_element(By.XPATH, '//*[@class="valtech-carrefourar-product-price-0-x-listPrice"]')
+                product_price_element = WebDriverWait(driver, 30).until(
+            EC.visibility_of_element_located((By.XPATH, '//*[@class="valtech-carrefourar-product-price-0-x-listPrice")]')))
                 product_price = product_price_element.text
             else:
                 product_price = price_element.text
@@ -573,7 +575,8 @@ for url in product_urls:
             pass
         
         try:  # Fetch price per kg, assuming it's always present
-            product_price_per_kg = driver.find_element(By.XPATH, '//*[contains(@class, "dynamic-weight-price-0-x-currencyContainer")]').text
+            product_price_per_kg = WebDriverWait(driver, 30).until(
+            EC.visibility_of_element_located((By.XPATH, '//*[contains(@class, "dynamic-weight-price-0-x-currencyContainer")]'))).text
         except NoSuchElementException:
             product_price_per_kg = ''  # Set as an empty string for missing data
 
