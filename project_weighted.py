@@ -22,6 +22,7 @@ chrome_options = Options()
 chrome_options.add_argument("--headless")  # Important for headless running
 chrome_options.add_argument("--no-sandbox")  # Bypass OS security model, required for headless
 chrome_options.add_argument("--disable-dev-shm-usage")  # Overcome limited resource problems
+chrome_options.add_argument("--window-size=1920,1080")
 chrome_options.add_argument("--disable-gpu")  # Applicable for headless running
 
 
