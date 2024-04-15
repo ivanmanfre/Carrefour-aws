@@ -567,7 +567,7 @@ for url in product_urls:
             EC.visibility_of_element_located((By.XPATH, '//*[contains(@class, "product-price-0-x-sellingPriceValue")]')))
             if "c/u" in price_element.text or "%" in price_element.text:
                 product_price_element = WebDriverWait(driver, 30).until(
-            EC.visibility_of_element_located((By.XPATH, '//*[@class="valtech-carrefourar-product-price-0-x-listPrice")]')))
+            EC.visibility_of_element_located((By.XPATH, '//*[@class="valtech-carrefourar-product-price-0-x-listPrice"]')))
                 product_price = product_price_element.text
             else:
                 product_price = price_element.text
