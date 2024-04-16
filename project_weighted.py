@@ -356,7 +356,7 @@ def determine_product_cat(url):
         return "Batata"
     elif '/acelga-' in url:
         return "Acelga"
-    elif '/cebolla-x-kg' in url:
+    elif '/cebolla' in url:
         return "Cebolla"
     elif '/choclo-en-granos' in url:
         return "Choclo en Granos"
@@ -554,6 +554,7 @@ for url in product_urls:
         print(url)
         time.sleep(5)  # Adjust sleep time based on page load times
 
+        # Attempt to fetch the product name
         product_name_xpath = '//h1[contains(@class, "productNameContainer")]/span[contains(@class, "productBrand")]'
         product_name_element = WebDriverWait(driver, 30).until(
             EC.visibility_of_element_located((By.XPATH, product_name_xpath))
@@ -563,26 +564,34 @@ for url in product_urls:
         
         try:  # Attempt to fetch the price details
             price_element = WebDriverWait(driver, 30).until(
-            EC.visibility_of_element_located((By.XPATH, '//*[contains(@class, "product-price-0-x-sellingPriceValue")]')))
+                EC.visibility_of_element_located((By.XPATH, '//*[contains(@class, "product-price-0-x-sellingPriceValue")]'))
+            )
             if "c/u" in price_element.text or "%" in price_element.text:
                 product_price_element = WebDriverWait(driver, 30).until(
-            EC.visibility_of_element_located((By.XPATH, '//*[@class="valtech-carrefourar-product-price-0-x-listPrice"]')))
+                    EC.visibility_of_element_located((By.XPATH, '//*[@class="valtech-carrefourar-product-price-0-x-listPrice"]'))
+                )
                 product_price = product_price_element.text
             else:
                 product_price = price_element.text
-        except NoSuchElementException:
+        except (NoSuchElementException, TimeoutException):
+            print("This product is down, we will use last known price")
             # If price details are not found, leave product_price as an empty string
             pass
-        
-        try:  # Fetch price per kg, assuming it's always present
-            product_price_per_kg = WebDriverWait(driver, 30).until(
-            EC.visibility_of_element_located((By.XPATH, '//*[contains(@class, "dynamic-weight-price-0-x-currencyContainer")]'))).text
-        except NoSuchElementException:
-            product_price_per_kg = ''  # Set as an empty string for missing data
 
+        try:  # Fetch price per kg, assuming it might not always be present
+            product_price_per_kg = WebDriverWait(driver, 30).until(
+                EC.visibility_of_element_located((By.XPATH, '//*[contains(@class, "dynamic-weight-price-0-x-currencyContainer")]'))
+            ).text
+        except (NoSuchElementException, TimeoutException):
+            # Set as an empty string for missing price per kg data
+            pass
+
+        # Append data to products_data list
         products_data.append([product_name, product_price, product_price_per_kg, product_cat, scrape_date])
+
     except (NoSuchElementException, TimeoutException) as e:
-        print(f"Error processing URL {url}: {e}")
+        # Handle errors specifically related to critical product name fetching
+        print(f"Error processing product name for URL {url}: {e}")
         continue  # Skip this URL and move to the next one
 
 
