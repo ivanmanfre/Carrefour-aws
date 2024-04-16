@@ -30,7 +30,7 @@ chrome_options.add_argument("--disable-dev-shm-usage")  # Overcome limited resou
 chrome_options.add_argument("--window-size=1920,1080")
 chrome_options.add_argument("--disable-gpu")  # Applicable for headless running
 chrome_options.add_argument('--disable-software-rasterizer')
-
+chrome_options.add_argument("--remote-debugging-port=9222")  # Ensure this port is not being used
 
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
 # Database connection parameters
