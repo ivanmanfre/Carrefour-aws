@@ -17,6 +17,9 @@ from decimal import Decimal
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+import subprocess
+
+
 
 # Increase the default script timeout
 capabilities = DesiredCapabilities.CHROME.copy()
@@ -116,7 +119,7 @@ def report_top_categories(conn, scrape_date):
         for product_category, price_change_percentage in price_increases:
             message += f"{product_category}: {price_change_percentage:.2f}%\n"
         
-        post_to_twitter(message)
+        print(message)
     else:
         print("No data available for price increases.")
 def report_price_reductions(conn, scrape_date):
@@ -161,7 +164,7 @@ def report_price_reductions(conn, scrape_date):
         message = f"Categorías con mayor reducción de precios al {formatted_scrape_date}:\n"
         for product_category, price_change_percentage in price_reductions:
             message += f"{product_category}: {price_change_percentage:.2f}%\n"
-        post_to_twitter(message)  # Replace with your preferred method of output, e.g., logging or tweeting
+        print(message)  # Replace with your preferred method of output, e.g., logging or tweeting
     else:
         print("No data available for price reductions.")
 def report_canasta_price_change(conn, scrape_date):
@@ -199,10 +202,16 @@ def report_canasta_price_change(conn, scrape_date):
         
         if date_object == last_day_of_current_month:
             message += " Esta es la tasa final de variación de precios para el mes actual."
-        post_to_twitter(message)    
+        print(message)    
     else:
         message = "Datos insuficientes para calcular la variación de la canasta."
         print(message)
+    # Define the command you would run in Bash
+    # Define your email and subject
+    recipient = "ivan.manfredi2001@gmail.com"
+    subject = "CARREBOT OF THE DAY"
+    send_mail = f'echo "{message}" | mail -s "{subject}" {recipient}'
+    subprocess.run(send_mail, shell=True)  
 def report_weighted_canasta_price_change(conn, scrape_date):
     # Convert string date to datetime object
     date_object = datetime.strptime(scrape_date, '%Y-%m-%d')
@@ -533,8 +542,8 @@ def insert_into_db(product_data):
     conn.close()
 
 # Adjust this path to where you save your file
-product_urls_file = '/home/ec2-user/carrefour-aws/product_urls.txt'
-#product_urls_file = '/Users/ivanmanfredi/Desktop/Carrefour-aws/product_urls.txt'
+#product_urls_file = '/home/ec2-user/carrefour-aws/product_urls.txt'
+product_urls_file = '/Users/ivanmanfredi/Desktop/Carrefour-aws/product_urls.txt'
 product_urls = read_product_urls(product_urls_file)
 
 # Current date 
