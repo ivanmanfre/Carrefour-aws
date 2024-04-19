@@ -600,7 +600,7 @@ for url in product_urls:
 
     except (NoSuchElementException, TimeoutException) as e:
         # Handle errors specifically related to critical product name fetching
-        print(f"Error processing product name for URL {url}: {e}")
+        print(f"Error processing product name for URL {url}")
         continue  # Skip this URL and move to the next one
 
 
