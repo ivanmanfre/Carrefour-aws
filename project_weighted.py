@@ -89,12 +89,12 @@ def report_top_categories(conn, scrape_date):
 
     price_increase_query = """
     WITH StartPrices AS (
-        SELECT product_category, AVG(average_category_price) AS start_avg_price
+        SELECT product_category, AVG(weighted_average_category_price) AS start_avg_price
         FROM product_prices
         WHERE scrape_date = %s
         GROUP BY product_category
     ), EndPrices AS (
-        SELECT product_category, AVG(average_category_price) AS end_avg_price
+        SELECT product_category, AVG(weighted_average_category_price) AS end_avg_price
         FROM product_prices
         WHERE scrape_date = %s
         GROUP BY product_category
@@ -137,12 +137,12 @@ def report_price_reductions(conn, scrape_date):
     # Query to find the average_category_price at the start and end of the period for each category
     price_reduction_query = """
     WITH StartPrices AS (
-        SELECT product_category, AVG(average_category_price) AS start_avg_price
+        SELECT product_category, AVG(weighted_average_category_price) AS start_avg_price
         FROM product_prices
         WHERE scrape_date = %s
         GROUP BY product_category
     ), EndPrices AS (
-        SELECT product_category, AVG(average_category_price) AS end_avg_price
+        SELECT product_category, AVG(weighted_average_category_price) AS end_avg_price
         FROM product_prices
         WHERE scrape_date = %s
         GROUP BY product_category
@@ -243,7 +243,7 @@ def report_weighted_canasta_price_change(conn, scrape_date):
         
         # Calculate the accumulated monthly inflation rate
         inflation_rate = ((end_value - start_value) / start_value) * 100 if start_value else 0
-        message = f"La variación acumulada de la canasta WEIGHTED al {formatted_scrape_date} es del {inflation_rate:.2f}%."
+        message = f"La variación acumulada de la canasta al {formatted_scrape_date} es del {inflation_rate:.2f}%."
         
         if date_object == last_day_of_current_month:
             message += " Esta es la tasa final de variación para el mes actual."
@@ -534,7 +534,7 @@ def insert_into_db(product_data):
     update_total_canasta_value_weighted(conn)
     report_top_categories(conn, scrape_date)
     report_price_reductions(conn, scrape_date)
-    report_canasta_price_change(conn, scrape_date)
+    #report_canasta_price_change(conn, scrape_date)
     report_weighted_canasta_price_change(conn, scrape_date)  
 
 
